@@ -2,14 +2,30 @@ export default function Footer() {
   return (
     <footer className="relative bg-[#3b2f2f] text-white py-16 sm:py-20 px-6">
       <div className="max-w-5xl mx-auto text-center">
-        <h3 className="text-2xl sm:text-3xl font-serif mb-4">
-          Crevia Finest Desserts
+        {/* Brand */}
+        <h3 className="text-2xl sm:text-3xl font-serif mb-3">
+          Crevia Desserts
         </h3>
 
-        <p className="mb-6 opacity-90">
+        <p className="mb-8 opacity-90">
           Handcrafted cheesecake cups. Made with care.
         </p>
 
+        {/* Partners */}
+        <div className="mb-10">
+          <h4 className="text-lg font-medium mb-4">
+            Partners
+          </h4>
+
+          <div className="space-y-2 text-sm opacity-90">
+            {/* Replace with real names & numbers */}
+            <p>Mihir Bavarva – +91 93164 47370</p>
+            <p>Niyati – +91 12345 67890</p>
+            <p>Shubham Parmar – +91 70966 03264</p>
+          </div>
+        </div>
+
+        {/* CTA */}
         <a
           href="https://www.instagram.com/creviadesserts"
           target="_blank"
@@ -17,19 +33,17 @@ export default function Footer() {
           className="inline-block px-7 py-3 bg-white text-[#3b2f2f]
                      rounded-full font-medium shadow-lg"
         >
-          Order via Instagram
+          DM us on Instagram
         </a>
 
-        <p className="mt-10 text-sm opacity-60">
-          © 2026 Crevia Desserts · All Rights Reserved
+        {/* Copyright */}
+        <p className="mt-10 text-xs opacity-60">
+          © {new Date().getFullYear()} Crevia Desserts · All Rights Reserved
         </p>
         <p className="text-sm opacity-70">
-        Crafted with Love 🤍 by Tirth Barot
-       </p>
+         Crafted with Love 🤍 by Tirth Barot
+        </p>
       </div>
     </footer>
   );
 }
-
-
-
