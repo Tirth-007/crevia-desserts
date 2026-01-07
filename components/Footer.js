@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="relative bg-[#3b2f2f] text-white py-20 px-6">
+    <footer className="relative bg-[#3b2f2f] text-white py-16 sm:py-20 px-6">
       <div className="max-w-5xl mx-auto text-center">
-        <h3 className="text-3xl font-serif mb-4">
+        <h3 className="text-2xl sm:text-3xl font-serif mb-4">
           Crevia Finest Desserts
         </h3>
 

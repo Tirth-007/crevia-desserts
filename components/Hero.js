@@ -45,11 +45,12 @@ export default function Hero() {
         className="
           relative z-10
           flex flex-col items-center text-center
-          px-12 py-12 rounded-3xl
+          px-6 py-8 sm:px-10 sm:py-10
           bg-white/65 backdrop-blur-md
           shadow-[0_20px_60px_rgba(0,0,0,0.10)]
           max-w-4xl w-full
         "
+        // px-12 py-12 rounded-3xl
       >
         {/* Logo */}
         <motion.div
@@ -68,12 +69,14 @@ export default function Hero() {
           <img
             src="/crevia-logo.png"
             alt="Crevia Desserts Logo"
-            className="w-48 md:w-56"
+            className="w-36 sm:w-44 md:w-56"
+            // w-48 md:w-56
           />
         </motion.div>
 
         {/* Tagline */}
-        <p className="text-xl md:text-2xl font-light mb-10 text-[#3b2f2f]">
+        {/* text-xl md:text-2xl */}
+        <p className="text-lg sm:text-xl md:text-2xl font-light mb-10 text-[#3b2f2f]">
           Handcrafted Cheesecake Cups, Made to Melt 🍰
         </p>
 

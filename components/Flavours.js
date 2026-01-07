@@ -21,7 +21,7 @@ const flavours = [
 
 export default function Flavours() {
     return (
-        <section id="flavours" className="py-28 px-6 bg-[#fff6ec]">
+        <section id="flavours" className="py-20 sm:py-28 px-6 bg-[#fff6ec]">
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ export default function Flavours() {
                         viewport={{ once: true }}
                         style={{ transformStyle: "preserve-3d" }}
                         className={`
-    relative rounded-3xl p-14
+    relative rounded-3xl p-8 sm:p-12 md:p-14
     bg-linear-to-br ${f.bg}
     shadow-[0_20px_60px_rgba(0,0,0,0.15)]
     overflow-hidden ${f.text}
@@ -82,7 +82,7 @@ export default function Flavours() {
                             {f.title}
                         </h3>
 
-                        <p className="text-lg leading-relaxed max-w-md relative z-10">
+                        <p className="text-base sm:text-lg leading-relaxed max-w-md relative z-10">
                             {f.desc}
                         </p>
                     </motion.div>
