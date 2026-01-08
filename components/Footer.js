@@ -8,7 +8,7 @@ export default function Footer() {
         </h3>
 
         <p className="mb-8 opacity-90">
-          Handcrafted cheesecake cups. Made with care.
+          Handcrafted cheesecake cups. Made with love.
         </p>
 
         {/* Address & Timings */}
