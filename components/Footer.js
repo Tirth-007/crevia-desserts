@@ -34,7 +34,7 @@ export default function Footer() {
           <div className="space-y-2 text-sm opacity-90">
             {/* Replace with real names & numbers */}
             <p>Mihir Bavarva – +91 93164 47370</p>
-            <p>Niyati – +91 12345 00000</p>
+            <p>Niyati Lakhani– +91 76985 31980</p>
             <p>Shubham Parmar – +91 70966 03264</p>
           </div>
         </div>
