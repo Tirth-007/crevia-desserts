@@ -11,6 +11,20 @@ export default function Footer() {
           Handcrafted cheesecake cups. Made with care.
         </p>
 
+        {/* Address & Timings */}
+        <div className="mb-10 text-sm opacity-90 space-y-3">
+          <p>
+            <span className="font-medium">📍 Address:</span><br />
+            Shop no. 4 Avasar namkeen , Luv Kush Apartment, near icici bank tulsidham, Zadeshwar road Bharuch.
+            Bharuch, Gujarat – 392011
+          </p>
+
+          <p>
+            <span className="font-medium">⏰ Timings:</span><br />
+            Monday – Saturday: 8:30PM To 11:00PM
+          </p>
+        </div>
+
         {/* Partners */}
         <div className="mb-10">
           <h4 className="text-lg font-medium mb-4">
@@ -41,7 +55,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Crevia Desserts · All Rights Reserved
         </p>
         <p className="text-sm opacity-70">
-         Crafted with Love 🤍 by Tirth Barot
+          Designed & Developed by Tirth Barot
         </p>
       </div>
     </footer>

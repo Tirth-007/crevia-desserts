@@ -5,6 +5,9 @@ body {
   background-color: #fff6ec;
   color: #3b2f2f;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 /* Luxury grain overlay */
 .grain::before {
   content: "";
